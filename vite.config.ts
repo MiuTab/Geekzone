@@ -16,8 +16,8 @@ function figmaAssetResolver() {
   }
 }
 
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Geekzone/' : '/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/Geekzone/' : '/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
