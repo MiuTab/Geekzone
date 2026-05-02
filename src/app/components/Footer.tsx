@@ -288,7 +288,7 @@ export function Footer() {
               className="text-gray-600"
               style={{ fontFamily: "'Press Start 2P', cursive", fontSize: "0.38rem", letterSpacing: "0.08em" }}
             >
-              POWERED BY GEEK ZONE
+              POWERED BY MIUTAB
             </span>
           </div>
         </div>
